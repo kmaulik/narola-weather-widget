@@ -1,0 +1,37 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.widget__temperature {
+    width: 25%;
+    margin-right: 30px;
+}
+.weather-widget {
+    min-width: 250px;
+    font: 400 14px/1.4 Roboto,Arial,sans-serif;
+}
+.weather-widget__city-name {
+    font: 600 24px/1.4 Oswald,Arial,sans-serif;
+}
+.weather-widget__temperature {
+    font: 600 30px/1.4 Oswald,Arial,sans-serif;
+    display: block;
+    padding-top: 0px;
+}
+.weather-widget__temperature > img{
+    vertical-align: middle;
+}
+.weather-widget__items {
+    font: 400 14px/1.4 Roboto,Arial,sans-serif;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+.weather-widget__item:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+.weather-widget__item td {
+    text-align: left;
+    padding: 5px !important;
+    border: 1px solid #ddd;
+}
